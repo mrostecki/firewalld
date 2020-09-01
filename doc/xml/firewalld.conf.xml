@@ -149,8 +149,8 @@
             <listitem>
                 <para>
                 Selects the firewall backend implementation. Possible values
-                are; <replaceable>nftables</replaceable> (default), or
-                <replaceable>iptables</replaceable>. This applies to all
+                are; <replaceable>nftables</replaceable>, or
+                <replaceable>iptables</replaceable> (default). This applies to all
                 firewalld primitives. The only exception is direct and
                 passthrough rules which always use the traditional iptables,
                 ip6tables, and ebtables backends.
